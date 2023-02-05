@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mood Journal</title>
+  <link href="InitialOpeningAesthetics.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Mood Journal</h1>
+    </header>
+    <div>
+        <label for="Journal Entry">How are you feeling today?</label><br>
+        <textarea id="JournalEntry" rows="20" cols="100" placeholder="Write your thoughts here..."></textarea>
+        <div>
+            <button onclick="getEntry()">New Entry</button>
+        </div>
+    </div>
+    <div id="saveEntries"></div>
+    <script src="popup.js"></script>
+
+</body>
