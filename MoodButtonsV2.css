@@ -12,22 +12,59 @@ body {
     font-size: 20px;
   }
   
-  .center1 {
+  
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+button.margin-right {
+  margin-right: 20px;
+}
+
+  /* .center1 {
     margin: 0;
     position: absolute;
     top: 25%;
-    left: 50%;
+    left: 26%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
   .center2 {
     margin: 0;
     position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 25%
+    left: 42%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
   }
+  .center3 {
+    margin: 0;
+    position: absolute;
+    top: 25%
+    left: 58%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+  }
+  .center4 {
+    margin: 0;
+    position: absolute;
+    top: 25%
+    left: 74%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+  }
+  .center5 {
+    margin: 0;
+    position: absolute;
+    top: 25%
+    left: 90%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+  } */
   
   .button {
     
