@@ -1,7 +1,7 @@
 body {
   background-color: rgb(254,247,234);
-  width: 500px;
-  height: 200px;
+  min-width:300px;
+  min-height:250px;
 }
 
 h1 {
@@ -14,7 +14,7 @@ p {
   font-size: 20px;
 }
 .center1 {
-  margin: 10px;
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -22,9 +22,17 @@ p {
   transform: translate(-50%, -50%);
 }
 .center2 {
-  margin: 10px;
+  margin: 0;
   position: absolute;
-  top: 70%;
+  top: 67%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center3 {
+  margin: 0;
+  position: absolute;
+  top: 84%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -33,25 +41,28 @@ p {
   background-color: rgb(177,197,150); /* Beige */
   border: none;
   color: white;
-  padding: 10px 15px;
+  padding: 30px 45px;
   text-align: center;
   text-decoration: none;
   display: block;
-  margin-bottom: 12px; 
+  margin-bottom: 5px; 
   font-size: 20px;
 }
 .button1 {
     border-radius: 12px;
-    font-family: verdana;}
+    font-family: verdana;
+    padding: 10px;
+  }
 .button1:hover {
-  background-color: rgb(196, 219, 164);
+  background-color: rgb(117,131,99);
   color: white;
 }
 .button2 {
     border-radius: 12px;
     font-family: verdana;
+    padding: 10px;
 }
 .button2:hover {
-  background-color: rgb(196, 219, 164);
+  background-color: rgb(117,131,99);
   color: white;
 }

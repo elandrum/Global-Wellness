@@ -1,6 +1,3 @@
-var button4 = document.getElementById("past");
-button4.addEventListener("click", MoodJournal, false);
-
 var button1 = document.getElementById("mood");
 button1.addEventListener("click", MoodJournal, false);
 
@@ -10,8 +7,4 @@ function MoodJournal(){
 
 function _(id){
     return document.getElementById(id)
-}
-
-function Activities(){
-    window.open('Activities.html', '_blank');
 }

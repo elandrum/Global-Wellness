@@ -1,18 +1,12 @@
 {
-"manifest version": 3,
-"name": "Glimpse",
-"version": "1.0.1",
-
-
-"browser_action": {
-"default icon": "https://ibb.co/qdm4S2j",
-"default_popup": "InitialOpeningAesthetics.html",
-"default locale": "en",
-"description": "Global Wellness Extension",
-"icons": {}
-},
-
-"permissions": ["storage", "unlimitedStorage"],
+    "name": "Glimpse",
+    "description": "Daily Well Check-in",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["tabs"],
+    "action": {
+      "default_popup": "InitialOpeningAesthetics.html",
+      "default_icon": "Logo.png"
+    }
+  }
   
-"authors": "Ashly Lam, Ellen Landrum, Seon-Jae Yoon"
-}
